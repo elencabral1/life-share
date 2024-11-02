@@ -62,4 +62,6 @@ jobs:
           app-name: 'DotNetRM98790App'
           slot-name: 'Production'
           package: .
+        env:
+            APPLICATIONINSIGHTS_CONNECTION_STRING: ${{ secrets.APPLICATIONINSIGHTS_CONNECTION_STRING }}
           
